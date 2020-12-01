@@ -1,0 +1,20 @@
+.navButton{
+   color: lightblue;
+   &:hover{
+       color: red;
+   }
+}
+
+.appbar{
+    background-color: black;
+
+    Button{
+         &:hover{
+             background-color: #00adb5;
+         }
+    }
+}
+
+.makeStyles-appBar-28{
+    margin-bottom: 0px !important;
+}

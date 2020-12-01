@@ -1,0 +1,26 @@
+@import './include-media';
+
+
+
+.searchContainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 18px;
+    
+    @include media( "<phone") {
+       background-color: red;
+        justify-content: center;
+    }
+    
+}
+
+.input{
+    @include media(">desktop") {
+        margin: 0 auto;
+        width: 50%;
+        
+    }
+}
