@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/styles.scss";
 
-import MovieCards from "../components/MovieCards";
+import MovieCards from "../components/movieCards";
 import MovieDetails from "../components/MovieDetails";
 import SearchComponent from "../components/SearchComponent";
 
