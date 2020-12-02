@@ -7,7 +7,7 @@ import MoviePage from './views/MoviePage'
 import GlobalProvider from './api/GlobalProvider'
 import MovieDetails from './components/MovieDetails'
 import createHistory from './api/history'
-import NavBar from "./components/navBar";
+import NavBar from "./components/NavBar";
 import TrailerPlayer from './components/TrailerPlayer'
 import SearchComponent from './components/SearchComponent';
 
